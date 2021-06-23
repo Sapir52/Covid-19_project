@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<!-- Create a page that allows you to import a file and view it as a data frame -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- Create a "Return" button -->
+<div align="right" style="margin-top: 1px;" class="container">
+    <a href="http://127.0.0.1:5000/">
+        <button  type="button" value="OK" type="button"  class="btn btn-xs btn-danger" onclick="hello()">Return</button>
+    </a>
+</div>
+
+<!-- Import a file to predict posts -->
+<form method=post enctype=multipart/form-data>
+    <input type=file name=file>
+   <button input type=submit value=Upload >upload file</button>
+</form>
+
+
+<!-- Displays the data frame with a column of prediction results -->
+<title>covid-19 table</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+  <h1 style="text-align: center; color: #bf1924;">Real or Not? Fake News covid-19!</h1>
+  {% for table in tables %}
+    <h2>{{titles[loop.index]}}</h2>
+    {{ table|safe }}
+  {% endfor %}
+</div>
+
+</body>
+</html>
