@@ -15,10 +15,18 @@ Step 2: Perform a scraping on Twitter to identify if the messages are true or fa
 ![result](https://user-images.githubusercontent.com/63209732/123226054-f8add400-d4db-11eb-9604-ba1defbdb748.png)
 
 # The system
+Main page
+
 ![fig1](https://user-images.githubusercontent.com/63209732/123227854-a79edf80-d4dd-11eb-9077-a8d62f325e9e.png)
+
+For a real post
 
 ![fig2](https://user-images.githubusercontent.com/63209732/123227863-aa99d000-d4dd-11eb-95dc-985cea34da19.png)
 
+For a fake post
+
 ![fig33](https://user-images.githubusercontent.com/63209732/123228136-ed5ba800-d4dd-11eb-89dc-970e49e0bd81.png)
+
+For posts downloaded from Twitter
 
 ![fig4](https://user-images.githubusercontent.com/63209732/123227890-b08fb100-d4dd-11eb-9140-140a8b049164.png)
