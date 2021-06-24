@@ -8,7 +8,7 @@ The purpose of the project - to build a model for posts from the Twitter network
 Step 1: Find the best algorithm for the system.
 ![step11](https://user-images.githubusercontent.com/63209732/123226018-f0559900-d4db-11eb-9a8b-0f0d87faf395.png)
 
-Step 2: Perform a scraping on Twitter to identify if the messages are true or fake.
+Step 2: Perform a scraping on Twitter to identify if the post are true or fake.
 ![step22](https://user-images.githubusercontent.com/63209732/123226042-f5b2e380-d4db-11eb-997e-4aa2ba20e89c.png)
 
 # Results
