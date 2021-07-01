@@ -3,6 +3,7 @@
 Real or not? fake news covid-19
 The purpose of the project - to build a model for posts from the Twitter network about the corona, which classifies them as true or fake.
 
+
 # Pipeline 
 
 Step 1: Find the best algorithm for the system.
