@@ -6,6 +6,7 @@ The purpose of the project - to build a model for posts from the Twitter network
 
 # Pipeline 
 
+
 Step 1: Find the best algorithm for the system.
 ![step11](https://user-images.githubusercontent.com/63209732/123226018-f0559900-d4db-11eb-9a8b-0f0d87faf395.png)
 
