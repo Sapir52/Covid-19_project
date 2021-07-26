@@ -1,5 +1,4 @@
 # Covid-19 project 
-
 Real or not? fake news covid-19
 The purpose of the project - to build a model for posts from the Twitter network about the corona, which classifies them as true or fake.
 
