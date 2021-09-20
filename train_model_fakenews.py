@@ -13,11 +13,7 @@ def merge_3_columns(df):
 
 df_data_covid_19 = merge_3_columns(df_data_covid_19)
 
-
-
 """## TF-IDF"""
-
-
 def tokenizer_porter(text):
     porter = PorterStemmer()
     return [porter.stem(word) for word in text.split()]
@@ -39,9 +35,7 @@ def tf_idf_vectors(df):
 
 X, y, tfidf = tf_idf_vectors(df_data_covid_19)
 
-"""## Save/ Show model"""
-
-
+"""## Save model"""
 def save_model(clf_, filename):
     model = open('data/' + filename + '.sav', 'wb')
     pickle.dump(clf_, model)
@@ -56,11 +50,11 @@ def svc(X, y):
     print('accuracy on train data: ', classifier.score(X_train, y_train))
     print('accuracy on test data: ', classifier.score(X_test, y_test))
 
-    # saving model
+    # Load model
     with open('model_fakenews.pickle', 'wb') as f:
         pickle.dump(classifier, f)
 
-    # save model
+    # Save model
     save_model(classifier,'SVC')
     return X_test, y_test, classifier
 
